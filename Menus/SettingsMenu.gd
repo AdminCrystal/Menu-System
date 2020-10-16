@@ -16,9 +16,23 @@ func _ready() -> void:
 	update_all_sounds_display()
 	connect_all_buttons()
 	
+	# yields to allow for the labels to be populated by the editor script
+	yield(get_tree(), "idle_frame")
+	update_all_labels_display()
+	
 	were_preferences_changed = false
+	
+	
+func update_all_labels_display() -> void:
+	for child in $VBoxContainer/SettingsRow/ControlsScroller/ControlsContainer/Labels.get_children():
+		update_label_display(child)
 
 
+func update_label_display(label: TextureRect) -> void:
+	# gets the saved controls and puts that as the text
+	(label.get_child(0) as Label).text = label.get_name().capitalize()
+	
+	
 func _input(event: InputEvent) -> void:
 	# gets user input and applys it to new_key
 	if accepting_input:

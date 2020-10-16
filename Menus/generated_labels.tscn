@@ -1,0 +1,1649 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Fonts/LabelFont.tres" type="DynamicFont" id=1]
+[ext_resource path="res://Menus/LabelOutline.png" type="Texture" id=2]
+[ext_resource path="res://Menus/ControlsLabel.tscn" type="PackedScene" id=3]
+
+[node name="Labels" type="VBoxContainer"]
+margin_right = 750.0
+margin_bottom = 60.0
+rect_min_size = Vector2( 750, 60 )
+custom_constants/separation = 30
+
+[node name="a" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="a"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "A"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="alt" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="alt"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Alt"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="apostrophe" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="apostrophe"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Apostrophe"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="b" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="b"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "B"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="backslash" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="backslash"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Backslash"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="backspace" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="backspace"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Backspace"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="c" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="c"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "C"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="caps_lock" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="caps_lock"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Caps Lock"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="comma" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="comma"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Comma"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ctrl" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="ctrl"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Ctrl"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="d" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="d"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "D"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="delete" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="delete"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Delete"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="down_arrow" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="down_arrow"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Down Arrow"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="e" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="e"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "E"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="end" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="end"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "End"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="enter" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="enter"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Enter"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="equals" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="equals"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Equals"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="f" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="f"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "F"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="f1" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="f1"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "F 1"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="f10" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="f10"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "F 10"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="f11" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="f11"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "F 11"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="f12" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="f12"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "F 12"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="f2" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="f2"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "F 2"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="f3" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="f3"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "F 3"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="f4" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="f4"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "F 4"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="f5" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="f5"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "F 5"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="f6" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="f6"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "F 6"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="f7" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="f7"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "F 7"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="f9" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="f9"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "F 9"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="forward_slash" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="forward_slash"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Forward Slash"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="g" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="g"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "G"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="h" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="h"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "H"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="home" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="home"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Home"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="hotbar0" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="hotbar0"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Hotbar 0"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="hotbar1" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="hotbar1"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Hotbar 1"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="hotbar2" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="hotbar2"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Hotbar 2"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="hotbar3" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="hotbar3"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Hotbar 3"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="hotbar4" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="hotbar4"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Hotbar 4"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="hotbar5" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="hotbar5"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Hotbar 5"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="hotbar6" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="hotbar6"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Hotbar 6"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="hotbar7" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="hotbar7"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Hotbar 7"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="hotbar8" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="hotbar8"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Hotbar 8"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="hotbar9" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="hotbar9"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Hotbar 9"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="i" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="i"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "I"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="insert" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="insert"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Insert"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="interact" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="interact"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Interact"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="j" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="j"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "J"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="jump" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="jump"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Jump"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="k" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="k"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "K"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="l" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="l"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "L"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="left_arrow" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="left_arrow"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Left Arrow"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="left_brace" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="left_brace"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Left Brace"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="left_click" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="left_click"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Left Click"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="m" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="m"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "M"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="minus" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="minus"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Minus"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="move_backward" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="move_backward"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Move Backward"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="move_forward" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="move_forward"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Move Forward"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="move_left" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="move_left"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Move Left"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="move_right" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="move_right"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Move Right"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="n" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="n"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "N"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="o" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="o"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "O"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="open_menu" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="open_menu"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Open Menu"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="p" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="p"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "P"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="page_down" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="page_down"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Page Down"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="page_up" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="page_up"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Page Up"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="period" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="period"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Period"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="q" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="q"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Q"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="r" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="r"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "R"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="right_arrow" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="right_arrow"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Right Arrow"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="right_brace" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="right_brace"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Right Brace"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="right_click" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="right_click"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Right Click"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="s" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="s"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "S"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="scroll_down" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="scroll_down"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Scroll Down"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="scroll_left" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="scroll_left"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Scroll Left"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="scroll_right" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="scroll_right"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Scroll Right"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="scroll_up" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="scroll_up"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Scroll Up"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="semicolon" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="semicolon"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Semicolon"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="shift" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="shift"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Shift"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="space" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="space"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Space"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="t" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="t"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "T"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="tab" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="tab"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Tab"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="u" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="u"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "U"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="up_arrow" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="up_arrow"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Up Arrow"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="v" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="v"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "V"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="volume_down" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="volume_down"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Volume Down"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="volume_mute" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="volume_mute"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Volume Mute"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="volume_up" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="volume_up"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Volume Up"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="w" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="w"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "W"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="x" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="x"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "X"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="y" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="y"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Y"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="z" type="TextureRect" parent="." instance=ExtResource( 3 )]
+margin_right = 750.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 750, 80 )
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="z"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_fonts/font = ExtResource( 1 )
+text = "Z"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}

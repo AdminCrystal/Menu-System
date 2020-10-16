@@ -1,0 +1,1104 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Fonts/LabelFont.tres" type="DynamicFont" id=1]
+[ext_resource path="res://Menus/ControlsButton.tscn" type="PackedScene" id=2]
+
+[node name="Controls" type="VBoxContainer"]
+margin_left = 770.0
+margin_right = 1000.0
+margin_bottom = 60.0
+rect_min_size = Vector2( 230, 60 )
+size_flags_horizontal = 3
+custom_constants/separation = 30
+
+[node name="a" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "a"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="alt" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "Alt"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="apostrophe" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "Minus"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="b" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "x"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="backslash" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "BackSlash"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="backspace" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "BackSpace"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="c" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "j"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="caps_lock" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "Capslock"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="comma" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "w"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ctrl" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "Control"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="d" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "e"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="delete" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "Delete"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="down_arrow" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "Down"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="e" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "Period"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="end" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "End"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="enter" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "Enter"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="equals" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "BraceRight"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="f" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "u"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="f1" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "F1"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="f10" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "F10"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="f11" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "F11"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="f12" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "F12"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="f2" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "F2"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="f3" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "F3"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="f4" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "F4"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="f5" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "F5"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="f6" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "F6"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="f7" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "F7"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="f9" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "F9"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="forward_slash" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "z"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="g" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "i"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="h" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "d"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="home" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "Home"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="hotbar0" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "0"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="hotbar1" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "1"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="hotbar2" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "2"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="hotbar3" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "3"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="hotbar4" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "4"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="hotbar5" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "5"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="hotbar6" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "6"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="hotbar7" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "7"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="hotbar8" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "8"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="hotbar9" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "9"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="i" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "c"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="insert" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "Insert"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="interact" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "Period"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="j" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "h"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="jump" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "Space"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="k" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "t"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="l" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "n"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="left_arrow" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "Left"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="left_brace" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "Slash"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="left_click" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "LeftClick"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="m" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "m"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="minus" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "BraceLeft"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="move_backward" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "o"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="move_forward" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "Comma"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="move_left" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "a"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="move_right" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "e"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="n" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "b"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="o" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "r"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="open_menu" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "Escape"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="p" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "l"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="page_down" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "PageDown"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="page_up" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "PageUp"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="period" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "v"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="q" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "Apostrophe"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="r" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "p"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="right_arrow" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "Right"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="right_brace" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "Equal"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="right_click" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "RightClick"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="s" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "o"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="scroll_down" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "ScrollWheelDown"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="scroll_left" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "ScrollWheelLeft"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="scroll_right" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "ScrollWheelRight"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="scroll_up" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "ScrollWheelUp"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="semicolon" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "s"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="shift" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "Shift"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="space" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "Space"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="t" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "y"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="tab" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "Tab"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="u" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "g"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="up_arrow" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "Up"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="v" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "k"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="volume_down" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "VolumeDown"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="volume_mute" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "VolumeMute"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="volume_up" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "VolumeUp"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="w" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "Comma"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="x" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "q"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="y" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "f"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="z" type="Button" parent="." instance=ExtResource( 2 )]
+margin_right = 230.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 0, 80 )
+focus_mode = 0
+custom_fonts/font = ExtResource( 1 )
+enabled_focus_mode = 0
+text = "SemiColon"
+__meta__ = {
+"_edit_use_anchors_": false
+}

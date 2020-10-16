@@ -374,9 +374,9 @@ func set_controls(filepath: String) -> void:
 	var file: File = File.new()
 	var _error = file.open(filepath, File.READ)
 	
-	#this resets the InputMap to default meaning
-	#that if the controls are changed there will
-	#not be multiple keys per InputMap
+	# this resets the InputMap to default meaning
+	# that if the controls are changed there will
+	# not be multiple keys per InputMap
 	InputMap.load_from_globals()
 	controls = parse_json(file.get_line()) 
 	

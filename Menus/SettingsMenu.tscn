@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=13 format=2]
 
 [ext_resource path="res://Menus/SettingsMenu.gd" type="Script" id=1]
 [ext_resource path="res://Fonts/LabelFont.tres" type="DynamicFont" id=3]
@@ -6,6 +6,7 @@
 [ext_resource path="res://Fonts/DavidLibre-Regular.ttf" type="DynamicFontData" id=5]
 [ext_resource path="res://Menus/LabelOutline.png" type="Texture" id=6]
 [ext_resource path="res://Menus/ButtonDisabled.tres" type="StyleBox" id=7]
+[ext_resource path="res://Menus/ControlsContainer.gd" type="Script" id=8]
 
 [sub_resource type="DynamicFont" id=1]
 size = 31
@@ -30,6 +31,7 @@ use_filter = true
 font_data = ExtResource( 5 )
 
 [node name="SettingsMenu" type="Control"]
+process_priority = 10
 anchor_right = 1.0
 anchor_bottom = 1.0
 margin_left = 30.0
@@ -131,216 +133,23 @@ scroll_horizontal_enabled = false
 
 [node name="ControlsContainer" type="HBoxContainer" parent="VBoxContainer/SettingsRow/ControlsScroller"]
 margin_right = 1000.0
-margin_bottom = 740.0
+margin_bottom = 60.0
 custom_constants/separation = 20
+script = ExtResource( 8 )
 
 [node name="Labels" type="VBoxContainer" parent="VBoxContainer/SettingsRow/ControlsScroller/ControlsContainer"]
 margin_right = 750.0
-margin_bottom = 740.0
+margin_bottom = 60.0
 rect_min_size = Vector2( 750, 60 )
 custom_constants/separation = 30
-
-[node name="MoveForward" type="TextureRect" parent="VBoxContainer/SettingsRow/ControlsScroller/ControlsContainer/Labels"]
-margin_right = 750.0
-margin_bottom = 80.0
-rect_min_size = Vector2( 750, 80 )
-texture = ExtResource( 6 )
-expand = true
-
-[node name="Label" type="Label" parent="VBoxContainer/SettingsRow/ControlsScroller/ControlsContainer/Labels/MoveForward"]
-anchor_right = 1.0
-anchor_bottom = 1.0
-custom_fonts/font = ExtResource( 3 )
-text = "Move Forward"
-align = 1
-valign = 1
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="MoveLeft" type="TextureRect" parent="VBoxContainer/SettingsRow/ControlsScroller/ControlsContainer/Labels"]
-margin_top = 110.0
-margin_right = 750.0
-margin_bottom = 190.0
-rect_min_size = Vector2( 750, 80 )
-texture = ExtResource( 6 )
-expand = true
-
-[node name="Label" type="Label" parent="VBoxContainer/SettingsRow/ControlsScroller/ControlsContainer/Labels/MoveLeft"]
-anchor_right = 1.0
-anchor_bottom = 1.0
-custom_fonts/font = ExtResource( 3 )
-text = "Move Left"
-align = 1
-valign = 1
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="MoveBackwards" type="TextureRect" parent="VBoxContainer/SettingsRow/ControlsScroller/ControlsContainer/Labels"]
-margin_top = 220.0
-margin_right = 750.0
-margin_bottom = 300.0
-rect_min_size = Vector2( 750, 80 )
-texture = ExtResource( 6 )
-expand = true
-
-[node name="Label" type="Label" parent="VBoxContainer/SettingsRow/ControlsScroller/ControlsContainer/Labels/MoveBackwards"]
-anchor_right = 1.0
-anchor_bottom = 1.0
-custom_fonts/font = ExtResource( 3 )
-text = "Move Right"
-align = 1
-valign = 1
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="MoveRight" type="TextureRect" parent="VBoxContainer/SettingsRow/ControlsScroller/ControlsContainer/Labels"]
-margin_top = 330.0
-margin_right = 750.0
-margin_bottom = 410.0
-rect_min_size = Vector2( 750, 80 )
-texture = ExtResource( 6 )
-expand = true
-
-[node name="Label" type="Label" parent="VBoxContainer/SettingsRow/ControlsScroller/ControlsContainer/Labels/MoveRight"]
-anchor_right = 1.0
-anchor_bottom = 1.0
-custom_fonts/font = ExtResource( 3 )
-text = "Move Backwards"
-align = 1
-valign = 1
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="Jump" type="TextureRect" parent="VBoxContainer/SettingsRow/ControlsScroller/ControlsContainer/Labels"]
-margin_top = 440.0
-margin_right = 750.0
-margin_bottom = 520.0
-rect_min_size = Vector2( 750, 80 )
-texture = ExtResource( 6 )
-expand = true
-
-[node name="Label" type="Label" parent="VBoxContainer/SettingsRow/ControlsScroller/ControlsContainer/Labels/Jump"]
-anchor_right = 1.0
-anchor_bottom = 1.0
-custom_fonts/font = ExtResource( 3 )
-text = "Jump"
-align = 1
-valign = 1
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="OpenMenu" type="TextureRect" parent="VBoxContainer/SettingsRow/ControlsScroller/ControlsContainer/Labels"]
-margin_top = 550.0
-margin_right = 750.0
-margin_bottom = 630.0
-rect_min_size = Vector2( 750, 80 )
-texture = ExtResource( 6 )
-expand = true
-
-[node name="Label" type="Label" parent="VBoxContainer/SettingsRow/ControlsScroller/ControlsContainer/Labels/OpenMenu"]
-anchor_right = 1.0
-anchor_bottom = 1.0
-custom_fonts/font = ExtResource( 3 )
-text = "Open Menu"
-align = 1
-valign = 1
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="Interact" type="TextureRect" parent="VBoxContainer/SettingsRow/ControlsScroller/ControlsContainer/Labels"]
-margin_top = 660.0
-margin_right = 750.0
-margin_bottom = 740.0
-rect_min_size = Vector2( 750, 80 )
-texture = ExtResource( 6 )
-expand = true
-
-[node name="Label" type="Label" parent="VBoxContainer/SettingsRow/ControlsScroller/ControlsContainer/Labels/Interact"]
-anchor_right = 1.0
-anchor_bottom = 1.0
-custom_fonts/font = ExtResource( 3 )
-text = "Interact"
-align = 1
-valign = 1
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Controls" type="VBoxContainer" parent="VBoxContainer/SettingsRow/ControlsScroller/ControlsContainer"]
 margin_left = 770.0
 margin_right = 1000.0
-margin_bottom = 740.0
+margin_bottom = 60.0
 rect_min_size = Vector2( 230, 60 )
 size_flags_horizontal = 3
 custom_constants/separation = 30
-
-[node name="move_forward" type="Button" parent="VBoxContainer/SettingsRow/ControlsScroller/ControlsContainer/Controls"]
-margin_right = 230.0
-margin_bottom = 80.0
-rect_min_size = Vector2( 0, 80 )
-focus_mode = 0
-custom_fonts/font = ExtResource( 3 )
-enabled_focus_mode = 0
-
-[node name="move_left" type="Button" parent="VBoxContainer/SettingsRow/ControlsScroller/ControlsContainer/Controls"]
-margin_top = 110.0
-margin_right = 230.0
-margin_bottom = 190.0
-rect_min_size = Vector2( 0, 80 )
-focus_mode = 0
-custom_fonts/font = ExtResource( 3 )
-enabled_focus_mode = 0
-
-[node name="move_backward" type="Button" parent="VBoxContainer/SettingsRow/ControlsScroller/ControlsContainer/Controls"]
-margin_top = 220.0
-margin_right = 230.0
-margin_bottom = 300.0
-rect_min_size = Vector2( 0, 80 )
-focus_mode = 0
-custom_fonts/font = ExtResource( 3 )
-enabled_focus_mode = 0
-
-[node name="move_right" type="Button" parent="VBoxContainer/SettingsRow/ControlsScroller/ControlsContainer/Controls"]
-margin_top = 330.0
-margin_right = 230.0
-margin_bottom = 410.0
-rect_min_size = Vector2( 0, 80 )
-focus_mode = 0
-custom_fonts/font = ExtResource( 3 )
-enabled_focus_mode = 0
-
-[node name="jump" type="Button" parent="VBoxContainer/SettingsRow/ControlsScroller/ControlsContainer/Controls"]
-margin_top = 440.0
-margin_right = 230.0
-margin_bottom = 520.0
-rect_min_size = Vector2( 0, 80 )
-focus_mode = 0
-custom_fonts/font = ExtResource( 3 )
-enabled_focus_mode = 0
-
-[node name="open_menu" type="Button" parent="VBoxContainer/SettingsRow/ControlsScroller/ControlsContainer/Controls"]
-margin_top = 550.0
-margin_right = 230.0
-margin_bottom = 630.0
-rect_min_size = Vector2( 0, 80 )
-focus_mode = 0
-custom_fonts/font = ExtResource( 3 )
-enabled_focus_mode = 0
-
-[node name="interact" type="Button" parent="VBoxContainer/SettingsRow/ControlsScroller/ControlsContainer/Controls"]
-margin_top = 660.0
-margin_right = 230.0
-margin_bottom = 740.0
-rect_min_size = Vector2( 0, 80 )
-focus_mode = 0
-custom_fonts/font = ExtResource( 3 )
-enabled_focus_mode = 0
 
 [node name="SoundScroller" type="ScrollContainer" parent="VBoxContainer/SettingsRow"]
 visible = false

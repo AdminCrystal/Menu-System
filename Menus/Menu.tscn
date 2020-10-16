@@ -74,7 +74,7 @@ margin_right = 617.0
 margin_bottom = 480.0
 rect_min_size = Vector2( 0, 100 )
 custom_fonts/font = SubResource( 1 )
-text = "Change Controls"
+text = "Settings"
 __meta__ = {
 "_edit_use_anchors_": false
 }
